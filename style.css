@@ -148,7 +148,7 @@ header::after {
 }
 
 .open .hamburger {
-  transform: rotate(45deg);
+  transform: rotate(540deg);
 }
 
 .open .hamburger::before {
