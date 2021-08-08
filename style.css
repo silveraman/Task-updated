@@ -48,8 +48,8 @@ header::after {
   background: #464655;
   clip-path: circle(0px at top right);        
   transition: clip-path ease-in-out 700ms;
-  height: 90vh;
-  width: 50vw;
+  height: 80vh;
+  width: 70vw;
   overflow: hidden;
 }
 
