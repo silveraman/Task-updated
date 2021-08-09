@@ -132,7 +132,6 @@ header::after {
   height: 3px;
   width: 2em; 
   border-radius: 3px;
-  /* transition: all ease-in-out 500ms; */
   cursor: pointer;
   
   
@@ -145,19 +144,6 @@ header::after {
 .hamburger::after {
   transform: translateY(3px);
 } 
-
-
-/* .open .hamburger {
-  transform: rotate(-45deg);
-}
-
- .open .hamburger::before {
-  opacity: 0;
-} 
-
- .open .hamburger::after {
-  transform: translateY(-3px) rotate(-90deg);
-}  */
 
 /* Desktop view */
 
