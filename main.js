@@ -1,5 +1,5 @@
 
-const toggle = document.querySelector(".hamburger");
+const toggle = document.querySelector(".click");
 const siteNav = document.querySelector(".site-nav");
 
 toggle.addEventListener("click", function(){
