@@ -1,17 +1,17 @@
 
-const toggle = document.querySelector(".click");
-const siteNav = document.querySelector(".site-nav");
+const toggle = document.querySelector(".hamburger");
+const siteNav = document.querySelector(".nav-items");
 
 toggle.addEventListener("click", function(){
-    if(siteNav.classList.contains("site-nav--open")) {
-      siteNav.classList.remove("site-nav--open");
+    if(siteNav.classList.contains("nav-items--open")) {
+      siteNav.classList.remove("nav-items--open");
       toggle.classList.remove("open");
 
-      siteNav.classList.add("site-nav--closed");
+      siteNav.classList.add("nav-items--closed");
     } else{
-        siteNav.classList.add("site-nav--closed");
+        siteNav.classList.add("nav-items--closed");
         toggle.classList.add("open");
 
-        siteNav.classList.add("site-nav--open");
+        siteNav.classList.add("nav-items--open");
     }
 });
